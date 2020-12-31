@@ -1,0 +1,177 @@
+/* ================ */
+/* Basic */
+/* ================ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+line-height: 1.5;
+overflow: hidden;
+}
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+button:focus,input:focus,a:focus,i:focus{
+  outline: none;
+}
+a:hover{
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+margin: 0;
+}
+
+/* ================ */
+/* Fonts */
+/* ================ */
+@font-face {
+font-family: poligon-bold;
+src: url(../fonts/Poligon-Bold.ttf);
+}
+@font-face {
+font-family: poligon-light;
+src: url(../fonts/Poligon-Light.ttf);
+}
+@font-face {
+font-family: poligon-regular;
+src: url(../fonts/Poligon-Regular.ttf);
+}
+
+/* ================ */
+/* Header */
+/* ================ */
+#header-section{
+position: relative;
+height: 100vh;
+background-image: url('../img/banner-bg.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-color: #eefaff;
+}
+.custom-nav{
+z-index: 999999999999999 !important;
+position: absolute;
+width: 1140px;
+margin: auto;
+top: 0;
+}
+.dashboard-icon p{
+display: inline-block;
+background: transparent linear-gradient(107deg, #0DF298 0%, #0AB7F8 100%) 0% 0% no-repeat padding-box;
+border-radius: 39px;
+color: #ffffff;
+padding: 1rem 2rem;
+font-size: 1.6rem;
+transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+cursor: pointer;
+box-shadow: 0px 10px 15px 0px #0df2962a;
+font-family: poligon-regular;
+}
+.dashboard-icon p:hover{
+transform: scale(0.9);
+-webkit-transform: scale(0.9);
+-moz-transform: scale(0.9);
+-ms-transform: scale(0.9);
+-o-transform: scale(0.9);
+transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+box-shadow: none;
+}
+
+/* header-content */
+
+.header-content{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+width: 1140px !important;
+margin: auto;
+z-index: 0;
+}
+.header-content h1{
+font-size: 7rem;
+color: #10142B;
+font-family: poligon-light;
+}
+.header-content p{
+font-size: 2rem;
+color: #10142B;
+font-family: poligon-regular;
+}
+.header-content p span{
+color: #25D691;
+font-family: poligon-bold;
+}
+.button{
+display: inline-block;
+font-family: poligon-regular;
+background: transparent linear-gradient(107deg, #0DF298 0%, #0AB7F8 100%) 0% 0% no-repeat padding-box;
+border-radius: 39px;
+color: #ffffff;
+padding: 1rem 2rem;
+font-size: 1.6rem;
+transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+cursor: pointer;
+box-shadow: 0px 5px 15px 0px #0df296ad;
+}
+.button:hover{
+transform: scale(0.9);
+-webkit-transform: scale(0.9);
+-moz-transform: scale(0.9);
+-ms-transform: scale(0.9);
+-o-transform: scale(0.9);
+transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+color: #ffffff;
+box-shadow: none;
+}
+.twitter-link{
+background: #55acee;
+font-family: poligon-regular;
+color: #ffffff;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+font-size: 1.6rem;
+padding: .8rem 1.3rem;
+transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+box-shadow: 0px 5px 15px 0px #55ACEE;
+}
+.twitter-link:hover{
+color: #ffffff;
+transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+box-shadow: none;
+}
